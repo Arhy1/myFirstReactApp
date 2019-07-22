@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-console.log('asdf')
+import TodoList from './components/TodoList';
+//import TodoApp from './components/TodoApp';
 
-ReactDOM.render(<p>React lives!</p>,
+const dummyData = ['Eat Breakfast', 'Eat Lunch', 'Eat Dinner', 'Eat Desert'];
+
+ReactDOM.render(<TodoList/>,
     document.getElementById('root'));
